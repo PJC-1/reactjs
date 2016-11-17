@@ -18,4 +18,4 @@
 9.  Keeping specific components in charge of a portion of state makes your app more maintainable and easier to reason about when adding new features, or fixing when something goes wrong.
 10. React utilizes a feature called the `Virtual DOM`. Instead of interacting heavily with the actual HTML DOM like jQuery, React uses the virtual approach to increase performance and efficiency. How it works is React will keep a virtual snapshot of the current HTML DOM, and when an event in the application requests a change to the user interface, the Virtual DOM technique goes into full effect.
 11. A basic overview of the process of the Virtual DOM is: an event in the application requires a change in the UI (Requested changes to the DOM), then the proposed changes are compared to the most recent virtual snapshot of the real DOM through a process called `diffing`, and finally only the minimal changes needed are applied to the real DOM.
-12. 
+12. Inside the return statements in the render function you can also insert regular javascript expressions with curly braces.
