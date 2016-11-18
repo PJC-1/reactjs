@@ -1,7 +1,8 @@
 import React from 'react';
 import axios from 'axios';
+import MessageList from './MessageList';
 
-export default class extends React.Component {
+export default class App extends React.Component {
   constructor(props) {
     super(props);
 
@@ -9,15 +10,15 @@ export default class extends React.Component {
   }
 
   componentWillMount() {
-    axios.get('/data.json')
+    axios.get('data.json')
     .then(response => this.setState({ messages : response.data }));
   }
 
   render() {
     return (
-      <div>
+      <div className="app">
         <h1>My Messages</h1>
-        {console.log(this.state.messages)}
+        <MessageList />
       </div>
     );
   }

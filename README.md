@@ -20,3 +20,8 @@
 11. A basic overview of the process of the Virtual DOM is: an event in the application requires a change in the UI (Requested changes to the DOM), then the proposed changes are compared to the most recent virtual snapshot of the real DOM through a process called `diffing`, and finally only the minimal changes needed are applied to the real DOM.
 12. Inside the return statements of the render function you can also insert regular javascript expressions by interpolating the expression with curly braces.
 13. Since react is only used to build UI layouts, so we are using `axios` to handle our javascript promises. [axios](https://github.com/mzabriskie/axios)
+
+
+## some CSS notes:
+1.  When we do <code>margin: 40px auto;</code> for our `App component`, what it's saying is we are creating 40px of space at the top and bottom of our container and the `auto` will automatically center the left and right margins of the container.
+2.  In our code <code>.app > h1 </code> the `>` symbol mean that the css-code will not bleed onto other elements outside of the `.app` class.
