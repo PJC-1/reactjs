@@ -18,7 +18,7 @@ export default class App extends React.Component {
     return (
       <div className="app">
         <h1>My Messages</h1>
-        <MessageList />
+        <MessageList messages={this.state.messages}/>
       </div>
     );
   }
