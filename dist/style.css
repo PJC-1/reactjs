@@ -27,3 +27,7 @@
 .messageItem >  hr {
   border-top: 1px solid #ddd;
 }
+
+.text-center {
+  text-align: center;
+}
