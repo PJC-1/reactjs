@@ -5,10 +5,10 @@ const MessageItem = (props) => {
     <div className="messageItem">
       <span> <img src={ props.message.imageUrl } /> </span>
       <span className="personName">
-      { props.message.firstname + " " + props.message.lastname }
+      { props.message.name }
       </span>
       <br />
-      <span className="latestMessage">{ props.message.message }</span>
+      <span className="latestMessage">{ props.message.bio }</span>
       <hr />
     </div>
   );

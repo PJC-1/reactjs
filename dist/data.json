@@ -1,20 +1,44 @@
 [
   {
-    "firstname" : "Bill",
-    "lastname" : "Gates",
-    "message" : "Hey bro, you should download Windows 10!",
-    "imageUrl" : "img/billgates.jpg"
+    "name"     : "Decidueye",
+    "no"       : "724",
+    "type"     : "Grass/Ghost",
+    "imageUrl" : "img/d.png",
+    "bio"      : "It fires arrow quills from its wings with such precision, they can pierce a pebble at distances over a hundred yards."
   },
   {
-    "firstname" : "Marissa",
-    "lastname" : "Mayer",
-    "message" : "I have to reschedule our meeting to 10:30am.",
-    "imageUrl" : "img/marissamayer.jpg"
+    "name"     : "Mimikyu",
+    "no"       : "778",
+    "type"     : "Ghost/Fairy",
+    "imageUrl" : "img/m.png",
+    "bio"      : "Its actual appearance is unknown. A scholar who saw what was under its rag was overwhelmed by terror and died from the shock."
   },
   {
-    "firstname" : "Linus",
-    "lastname" : "Torvalds",
-    "message" : "I am way smarter than all of you. Just kidding, but seriously, I am.",
-    "imageUrl" : "img/linustorvalds.jpg"
+    "name"     : "Vaporeon",
+    "no"       : "134",
+    "type"     : "Water",
+    "imageUrl" : "img/v.png",
+    "bio"      : "Blending in with the water and erasing all signs of its presence, it patiently waits for its prey, fish Pokémon."
+  },
+  {
+    "name"     : "Palossand",
+    "no"       : "770",
+    "type"     : "Ghost/Ground",
+    "imageUrl" : "img/p.png",
+    "bio"      : "Buried beneath the castle are masses of dried-up bones from those whose vitality it has drained."
+  },
+  {
+    "name"     : "Arcanine",
+    "no"       : "059",
+    "type"     : "Fire",
+    "imageUrl" : "img/a.png",
+    "bio"      : "The fire burning inside its body serves as the energy to fuel it as it runs great distances. It appears in many legends."
+  },
+  {
+    "name"     : "Alolan Ninetales",
+    "no"       : "038",
+    "type"     : "Ice/Fairy",
+    "imageUrl" : "img/n.png",
+    "bio"      : "Legend has it that this mystical Pokémon was formed when nine saints coalesced into one."
   }
 ]

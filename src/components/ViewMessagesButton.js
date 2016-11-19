@@ -4,7 +4,7 @@ const ViewMessagesButton = (props) => {
   return (
     <div className="text-center">
       <a onClick={props.getMessages} className="btn btn-md btn-info">
-        Get Messages
+        Clique Here
       </a>
     </div>
   );

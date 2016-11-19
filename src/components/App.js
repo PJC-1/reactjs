@@ -27,7 +27,8 @@ export default class App extends React.Component {
 
     return (
       <div className="app">
-        <h1>My Messages</h1>
+        <h1>My Pokemon Sun and Moon Team</h1>
+        <br />
         <MessageList messages={this.state.messages}/>
         {button}
       </div>
