@@ -1,12 +1,15 @@
 import React from 'react';
+import MessageItem from './MessageItem';
 
 const MessageList = (props) => {
-
-  const chicken = props.messages;
-  console.log(chicken);
+  const messages = props.messages.map(message => {
+    return (
+      <MessageItem key={message.firstname} message={message}/>
+    );
+  });
   return (
     <div>
-        <h1>Messagelist component!</h1>
+        {messages}
     </div>
   );
 }

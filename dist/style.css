@@ -6,3 +6,24 @@
 .app > h1 {
   text-align: center;
 }
+
+.messageItem > span > img {
+  border-radius: 120px;
+  height: 100px;
+  width: 100px;
+}
+
+.messageItem > .personName {
+  font-size: 18px;
+  padding-left: 20px;
+  font-weight: 500;
+}
+
+.messageItem > .latestMessage {
+  padding-left: 125px;
+  font-style: italic;
+}
+
+.messageItem >  hr {
+  border-top: 1px solid #ddd;
+}
