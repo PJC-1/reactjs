@@ -23,6 +23,12 @@
 14. Whats different about functional components when you use the arrow function, the `this` variable automatically points to the correct object, so instead of accessing the `props` with `this.props.example` you can just access the props `props.example`.
 
 
+
 ## some CSS notes:
 1.  When we do <code>margin: 40px auto;</code> for our `App component`, what it's saying is we are creating 40px of space at the top and bottom of our container and the `auto` will automatically center the left and right margins of the container.
 2.  In our code <code>.app > h1 </code> the `>` symbol mean that the css-code will not bleed onto other elements outside of the `.app` class.
+
+##  some notes from the Reactjs Docs:
+1.  You can use React without a build pipeline, but the docs say that it is recommended to be more productive. A typical modern build pipeline consists of a package manager such as `npm`, which lets you take advantage of a vast ecosystem of third-party packages, and easily install or update them. A bundler, such as `webpack` that lets you write modular code and bundle it together into small packages to optimize load time. And a compiler such as `Babel`, which lets you write modern Javascript code that still works in older browsers.
+2.  When enabling ES6 and JSX in your application and using Babel, make sure to install `babel-preset-react` and `babel-preset-es2015` and enable them in your `.babelrc` configuration.
+3.  With JSX if a tag is empty, you may close it immediately with `/>`, and example is: <code>const element = <img src={user.avatarUrl} />;</code>
