@@ -21,7 +21,7 @@
 12. Inside the return statements of the render function you can also insert regular javascript expressions by interpolating the expression with curly braces.
 13. Since react is only used to build UI layouts, so we are using `axios` to handle our javascript promises. [axios](https://github.com/mzabriskie/axios)
 14. Whats different about functional components when you use the arrow function, the `this` variable automatically points to the correct object, so instead of accessing the `props` with `this.props.example` you can just access the props `props.example`.
-
+15. As your building, it can be helpful to check webpack and see if there are any errors in the log.
 
 
 ## some CSS notes:
